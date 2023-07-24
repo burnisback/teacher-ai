@@ -8,7 +8,7 @@ def get_evaluation_result():
     questions = request.json.get('questions')
     answers = request.json.get('answers')
     model = "gpt-3.5-turbo"
-    openai.api_key = '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'
+    openai.api_key = 'API - Key'
 
     correct_answers = 0
     for i, question in enumerate(questions):
