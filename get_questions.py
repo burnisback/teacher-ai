@@ -7,7 +7,7 @@ app = Flask(__name__)
 def get_questions():
     subtopic = request.json.get('subtopic')
     model = "gpt-3.5-turbo"
-    openai.api_key = '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'
+    openai.api_key = 'API - Key'
 
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
