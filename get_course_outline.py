@@ -9,7 +9,7 @@ def get_course_outline():
     topic = request.json.get('topic')
     grade = request.json.get('grade')
     model = "gpt-3.5-turbo"
-    openai.api_key = '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'
+    openai.api_key = 'API - Key'
 
     outline_messages = [
         {"role": "system", "content": "You are a helpful assistant."},
