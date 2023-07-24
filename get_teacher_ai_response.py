@@ -8,7 +8,7 @@ def get_teacher_ai_response():
     student_input = request.json.get('student_input')
     grade = request.json.get('grade')
     model = "gpt-3.5-turbo"
-    openai.api_key = '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'
+    openai.api_key = 'API - Key'
 
     messages = [
         {"role": "system", "content": f"You are a professional school teacher teaching a single student in {grade}."},
